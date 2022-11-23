@@ -1,0 +1,26 @@
+[
+    {
+        "id": "637db0787be390edff6f2d4e",
+        "accountId": "/accounts/637db05b3aa26749652a83a5",
+        "msgid": "<CAPG0ouOrHMgCvyQCkyP1csPNNr+UvMfgXLeddohFqCRUA+5eNQ@mail.gmail.com>",
+        "from": {
+            "address": "aswinhacker4@gmail.com",
+            "name": "Aswin"
+        },
+        "to": [
+            {
+                "address": "vog1n@karenkey.com",
+                "name": ""
+            }
+        ],
+        "subject": "Mdmdmdm",
+        "intro": "Jska",
+        "seen": false,
+        "isDeleted": false,
+        "hasAttachments": false,
+        "size": 2822,
+        "downloadUrl": "/messages/637db0787be390edff6f2d4e/download",
+        "createdAt": "2022-11-23T05:32:27+00:00",
+        "updatedAt": "2022-11-23T05:32:40+00:00"
+    }
+]
