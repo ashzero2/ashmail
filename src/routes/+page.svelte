@@ -27,20 +27,18 @@
 		await mailjs.me().then(console.log);
 		await mailjs.getMessages().then((data) => {
 			messages = data.data;
-			showMsg = true;
+			showMsg = !showMsg;
 			console.log(data);
 		});
 	};
 </script>
 
 <main>
-	<div
-		class="flex bg-fav-dark flex-wrap flex-col gap-12 w-screen h-screen justify-center items-center"
-	>
+	<div class="flex flex-col gap-12 w-screen min-h-screen justify-center items-center">
 		<div>
 			<h1 class="text-8xl font-patrick">Temp Mail</h1>
 		</div>
-		<div>
+		<div class="font-patrick text-2xl">
 			{#if username == ''}
 				<p>Create a account first !</p>
 			{:else}
