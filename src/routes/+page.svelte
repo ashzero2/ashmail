@@ -17,9 +17,9 @@
 		});
 	};
 
-	// onMount(async () => {
-	// 	await mailjs.login('4efdj@karenkey.com', 'dv4wq2lf');
-	// });
+	onMount(async () => {
+		await mailjs.login('4efdj@karenkey.com', 'dv4wq2lf');
+	});
 	let messages;
 	let showMsg = false;
 
